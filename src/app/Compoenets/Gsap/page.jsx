@@ -98,7 +98,7 @@ const Scroller = () => {
     { id: 5, imgname: "5", pa: "Interactive Arts" },
   ];
   return (
-    <div className={"scroller overflow-x-hidden"}>
+    <div className={"scroller overflow--hidden"}>
       <div
         className={`h-screen intro flex justify-center items-center ${roboto.className}`}
       >
@@ -147,8 +147,9 @@ const Scroller = () => {
           ></div>
         </div>
       </section> */}
-      <section
-        className={" black flex justify-around items-center  lg:flex-row flex-col"}
+     <div className=" sm:block hidden" >
+     <section
+        className={"   black flex justify-around items-center  lg:flex-row  flex-col"}
       >
         <h1 className="text-lg md:text-2xl lg:text-3xl xl:text-4xl text-center">
           "Crafting Unique Identities Through Thoughtful Logo Design"
@@ -165,6 +166,7 @@ const Scroller = () => {
           ></div>
         </div>
       </section>
+     </div>
       <div>
         <div className="h-screen flex flex-col lg:flex-row items-center justify-around px-4">
           <div className="text-center max-w-xl lg:max-w-md">
