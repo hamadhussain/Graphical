@@ -98,7 +98,7 @@ const Scroller = () => {
     { id: 5, imgname: "5", pa: "Interactive Arts" },
   ];
   return (
-    <div className={"scroller overflow-hidden"}>
+    <div className={"scroller overflow-x-hidden"}>
       <div
         className={`h-screen intro flex justify-center items-center ${roboto.className}`}
       >
