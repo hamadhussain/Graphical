@@ -206,7 +206,7 @@ body {
   background-image: url("/intro.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  letter-spacing: 30px;
+  letter-spacing: 10px;
   text-transform: uppercase;
   filter: grayscale(30%);
 }
