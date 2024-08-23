@@ -49,14 +49,11 @@ a {
   /* background-color: #753500; */
 }
 
-.text {
-  color: #fff;
-}
 
 .black {
   display: flex;
   height: 100vh;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   /* background-color: #070707; */
   /* color: #808; */
@@ -69,7 +66,7 @@ a {
   background-repeat: no-repeat;
 }
 
-.textWrap {
+/* .textWrap {
   position: relative;
   overflow: hidden;
   width: 450px;
@@ -92,29 +89,15 @@ a {
   background-color: #070707;
   transform: translateY(100%);
   opacity: 0;
-}
+} */
 
-.blueText {
-  color: rgb(123, 204, 11);
-}
 
-.redText {
-  color: red;
-}
-
-.purpleText {
-  color: purple;
-}
-
-.orangeText {
-  color: orange;
-}
 
 .pWrap {
   position: relative;
   overflow: hidden;
-  width: 450px;
-  height: 80vh;
+  width: 750px;
+  height: 100vh;
 }
 
 .panel {
@@ -155,6 +138,31 @@ a {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .item1 {
   grid-area: header;

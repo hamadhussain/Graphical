@@ -147,26 +147,42 @@ const Scroller = () => {
           ></div>
         </div>
       </section> */}
-     <div className=" sm:block hidden" >
-     <section
-        className={"   black flex justify-around items-center  lg:flex-row  flex-col"}
-      >
-        <h1 className="text-lg md:text-2xl lg:text-3xl xl:text-4xl text-center">
-          "Crafting Unique Identities Through Thoughtful Logo Design"
-        </h1>
-
-        <div className={"pWrap"}>
-          <div className={`panel blue flex justify-center items-center`}></div>
-          <div className={`panel  flex justify-center items-center red`}></div>
-          <div
-            className={`panel  flex justify-center items-center orangePanel`}
-          ></div>
-          <div
-            className={`panel flex justify-center items-center  purple`}
-          ></div>
-        </div>
-      </section>
-     </div>
+      <div className=" sm:block hidden">
+        <section
+          className={
+            "   black flex justify-between items-center  lg:flex-row  flex-col"
+          }
+        >
+          <div className="text-center relative lg:left-20 max-w-xl hidden lg:block  lg:max-w-md">
+            <h2 className="text-3xl lg:text-4xl font-bold mb-4">
+              Collection Of Art
+            </h2>
+            <p className="text-base lg:text-lg">
+              My design process is both animated and attractive. I begin by
+              understanding your brand’s core values and vision, followed by
+              sketching and conceptualizing ideas. Through a series of
+              iterations, I refine the design to ensure it aligns perfectly with
+              your brand identity. Each step is aimed at delivering a logo that
+              not only looks great but also communicates your brand’s message
+              effectively.
+            </p>
+          </div>
+          <div className={"pWrap  w-"}>
+            <div
+              className={`panel blue flex justify-center items-center`}
+            ></div>
+            <div
+              className={`panel  flex justify-center items-center red`}
+            ></div>
+            <div
+              className={`panel  flex justify-center items-center orangePanel`}
+            ></div>
+            <div
+              className={`panel flex justify-center items-center  purple`}
+            ></div>
+          </div>
+        </section>
+      </div>
       <div>
         <div className="h-screen flex flex-col lg:flex-row items-center justify-around px-4">
           <div className="text-center max-w-xl lg:max-w-md">
